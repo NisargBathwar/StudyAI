@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.StudyAI"
+        parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">#020817</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/scan</item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.StudyAI.Main
+        </item>
+
+    </style>
+
+    <style name="Theme.StudyAI.Main"
+        parent="android:Theme.Material.NoActionBar" />
+</resources>
